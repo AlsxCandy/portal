@@ -15,13 +15,13 @@
 - GitHub
 
 	```bash
-	git clone https://github.com/OHUHO/portal.git
+	git clone https://github.com/AlsxCandy/portal.git
 	```
 
 - Gitee
 
 	```bash
-	git clone https://gitee.com/OHUHO/portal.git
+	git clone https://github.com/AlsxCandy/portal.git
 	```
 
 ### 代码运行
