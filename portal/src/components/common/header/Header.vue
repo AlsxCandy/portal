@@ -8,21 +8,21 @@
 				<div class="header-item">
 					<i style="color:#7c6aa6" class="contact-icon am-icon-phone"></i>
 					<div class="item">
-						<strong>15284734573</strong>
-						<span>周一 ~ 周五, 8:30 - 17:30</span>
+						<strong>+8613360527236</strong>
+						<span>Monday to Friday, 8:30-17:30</span>
 					</div>
 				</div>
 				<div class="header-item">
 					<i style="color:#7c6aa6" class="contact-icon am-icon-map-marker"></i>
 					<div class="item">
-						<strong>四川省成都市高新区</strong>
-						<span>四川XXXX有限公司</span>
+						<strong>Longgang District, Shenzhen</strong>
+						<span>Shenzhen WuZhuQ Electronic Co.,LTD</span>
 					</div>
 				</div>
 			</div>
 			<div class="header-right">
-				<a href="tel:+18583266628" class="">
-					<button type="button" >联系我们</button>
+				<a href="tel:+8618583266628" class="">
+					<button type="button" >Contact Us</button>
 				</a>
 			</div>
 		</div>
@@ -30,11 +30,11 @@
 		<div class="nav-wrapper header-default">
 			<div class="nav">
 				<ul class="am-nav am-nav-pills am-nav-justify">
-					<li><router-link class="router" to="/index">网站首页</router-link></li>
-					<li><router-link class="router" to="/product">产品中心</router-link></li>
-					<li><router-link class="router" to="/example">客户案例</router-link></li>
-					<li><router-link class="router" to="/news">公司动态</router-link></li>
-					<li><router-link class="router" to="/about">关于我们</router-link></li>
+					<li><router-link class="router" to="/index">Home</router-link></li>
+					<li><router-link class="router" to="/product">Products</router-link></li>
+					<li><router-link class="router" to="/example">Customers</router-link></li>
+					<li><router-link class="router" to="/news">News</router-link></li>
+					<li><router-link class="router" to="/about">About</router-link></li>
 				</ul>
 			</div>
 		</div>

@@ -15,11 +15,7 @@ import java.util.List;
 
 import static java.util.Collections.singletonList;
 
-/**
- * Swagger
- * 1、注释中的 2、3 分别代表 Swagger 的版本，对应 pom.xml
- * 2、关于更多的信息，请参考 微信公众号【京茶吉鹿】
- */
+
 @Configuration
 @EnableSwagger2  // 2
 // @EnableOpenApi      // 3
@@ -44,9 +40,9 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("四川XXXX有限公司")
-                .description("四川XXXX有限公司——接口文档")
-                .contact(new Contact("京茶吉鹿", "http:localhost:8888/doc.html", "jc.jingchao@qq.com"))
+                .title("深圳市五铢钱电子有限公司")
+                .description("深圳市五铢钱电子有限公司——接口文档")
+                .contact(new Contact("五铢钱", "http:localhost:8888/doc.html", "zjuly7580@gmail.com"))
                 .version("1.0.0")
                 .termsOfServiceUrl("http://localhost:8888")
                 .build();

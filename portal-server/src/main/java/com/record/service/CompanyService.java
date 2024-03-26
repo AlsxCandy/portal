@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  *  服务类
  * </p>
  *
- * @author 京茶吉鹿
- * @since 2023-03-07
+ * @author 五铢钱
+ * @since 2024-03-18
  */
 public interface CompanyService extends IService<Company> {
 

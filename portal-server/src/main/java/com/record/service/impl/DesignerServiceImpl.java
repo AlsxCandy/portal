@@ -14,8 +14,8 @@ import java.util.List;
  *  服务实现类
  * </p>
  *
- * @author 京茶吉鹿
- * @since 2023-03-07
+ * @author 五铢钱
+ * @since 2024-03-18
  */
 @Service
 public class DesignerServiceImpl extends ServiceImpl<DesignerMapper, Designer> implements DesignerService {

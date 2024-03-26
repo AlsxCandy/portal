@@ -3,15 +3,15 @@
 		<div class="layout-container" style="width: 100%">
 			<div class="page-header">
 				<div class="am-container">
-					<h1 class="page-header-title">公司动态</h1>
+					<h1 class="page-header-title">Company dynamics</h1>
 				</div>
 			</div>
 			
 			<div class="breadcrumb-box">
 				<div class="am-container">
 					<ol class="am-breadcrumb">
-						<li><router-link to="/">首页</router-link></li>
-						<li class="am-active">公司动态</li>
+						<li><router-link to="/">Home</router-link></li>
+						<li class="am-active">News</li>
 					</ol>
 				</div>
 			</div>

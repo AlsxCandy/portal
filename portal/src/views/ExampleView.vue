@@ -3,14 +3,14 @@
 		<div class="layout-container" style="width: 100%">
 			<div class="page-header">
 				<div class="am-container">
-					<h1 class="page-header-title">客户案例</h1>
+					<h1 class="page-header-title">Customer case</h1>
 				</div>
 			</div>
 			<div class="breadcrumb-box">
 				<div class="am-container">
 					<ol class="am-breadcrumb">
-						<li><router-link to="/">首页</router-link></li>
-						<li class="am-active">客户案例</li>
+						<li><router-link to="/">Home</router-link></li>
+						<li class="am-active">Customers</li>
 					</ol>
 				</div>
 			</div>
@@ -59,12 +59,12 @@ export default {
 		return{
 			tabIndex: 0,
 			tabList:[
-				{id:1,name:'主要案例',icon:'am-icon-map-o'},
-				{id:1,name:'客户案例一',icon:'am-icon-scribd'},
-				{id:1,name:'客户案例二',icon:'am-icon-odnoklassniki'},
-				{id:1,name:'客户案例三',icon:'am-icon-building-o'},
-				{id:1,name:'客户案例四',icon:'am-icon-hand-scissors-o'},
-				{id:1,name:'客户案例五',icon:'am-icon-camera'},
+				{id:1,name:'Main case',icon:'am-icon-map-o'},
+				{id:1,name:'Customer Case 1',icon:'am-icon-scribd'},
+				{id:1,name:'Customer Case 2',icon:'am-icon-odnoklassniki'},
+				{id:1,name:'Customer Case 3',icon:'am-icon-building-o'},
+				{id:1,name:'Customer Case 4',icon:'am-icon-hand-scissors-o'},
+				{id:1,name:'Customer Case 5',icon:'am-icon-camera'},
 			],
 			list:[],
 		}

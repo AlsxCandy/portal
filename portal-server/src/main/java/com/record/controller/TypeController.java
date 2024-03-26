@@ -17,18 +17,18 @@ import java.util.List;
  *  前端控制器
  * </p>
  *
- * @author 京茶吉鹿
- * @since 2023-03-07
+ * @author 五铢钱
+ * @since 2024-03-18
  */
 @RestController
-@Api(tags = "电梯类型")
+@Api(tags = "耳机类型")
 public class TypeController {
 
     @Autowired
     private TypeService typeService;
 
 
-    @ApiOperation(value = "获取所有的电梯种类")
+    @ApiOperation(value = "获取所有的耳机种类")
     @GetMapping("/findAllType")
     public Result findAllType(){
         List<Type> types = typeService.selectAllType();

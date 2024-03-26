@@ -9,8 +9,8 @@ import org.apache.ibatis.annotations.Mapper;
  *  Mapper 接口
  * </p>
  *
- * @author 京茶吉鹿
- * @since 2023-03-07
+ * @author 五铢钱
+ * @since 2024-03-18
  */
 @Mapper
 public interface TypeDetailsMapper extends BaseMapper<TypeDetails> {

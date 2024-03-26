@@ -3,15 +3,15 @@
 		<div class="layout-container" style="width: 100%">
 			<div class="page-header">
 				<div class="am-container">
-					<h1 class="page-header-title">关于我们</h1>
+					<h1 class="page-header-title">About Us</h1>
 				</div>
 			</div>
 			
 			<div class="breadcrumb-box">
 				<div class="am-container">
 					<ol class="am-breadcrumb">
-						<li><router-link to="/">首页</router-link></li>
-						<li class="am-active">关于我们</li>
+						<li><router-link to="/">Home</router-link></li>
+						<li class="am-active">About Us</li>
 					</ol>
 				</div>
 			</div>
@@ -52,7 +52,7 @@
 										<p class="our-company-brief">
 											国家“千人计划”特聘专家、中国企业级HTML5产业联盟主席、HTML5国际标准制定者之一、微软总部IE浏览器核心研发,成功发布了IE8、IE9、IE10,参与了下一代互联网标准HTML5国际标准制定以及IE中HTML5引擎的设计。
 										</p>
-										<div class="our-company-quote_author"><strong>吴总</strong><span>奥里斯电梯有限公司创始人</span></div>
+										<div class="our-company-quote_author"><strong>General Manager Zhong</strong><span>Founder of Shenzhen WuZhuQ Electronic Co.,LTD</span></div>
 									</div>
 								</div>
 							</div>
@@ -68,7 +68,7 @@
 		<div class="section">
 			<div class="container" style="max-width: 1160px">
 				<div class="section--header">
-					<h2 class="section--title">我们的宗旨</h2>
+					<h2 class="section--title">Our purpose</h2>
 					<p class="section--description">
 						让人们无论使用任何设备都能安全高效获取信息
 						<br>One Web，Any Device
@@ -81,7 +81,7 @@
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
 									<div class="figure our_mission--item_media"><img src="../assets/images/about/f02.jpg" alt=""></div>
-									<h3 class="our_mission--item_title">品质</h3>
+									<h3 class="our_mission--item_title">Quality</h3>
 									<div class="our_mission--item_body">
 										<p>
 											全球领先的HTML5解决方案供应商，安全高效解决企业移动化
@@ -98,7 +98,7 @@
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
 									<div class="figure our_mission--item_media"><img src="../assets/images/about/f03.jpg" alt=""></div>
-									<h3 class="our_mission--item_title">责任</h3>
+									<h3 class="our_mission--item_title">Duty</h3>
 									<div class="our_mission--item_body">
 										<p>
 											国产最流行的开源HTML5前端框架，组件丰富，为HTML5开发加速
@@ -115,7 +115,7 @@
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
 									<div class="figure our_mission--item_media"><img src="../assets/images/about/f04.jpg" alt=""></div>
-									<h3 class="our_mission--item_title">诚信</h3>
+									<h3 class="our_mission--item_title">Integrity</h3>
 									<div class="our_mission--item_body">
 										<p>
 											全球领先的HTML5解决方案供应商，安全高效解决企业移动化
@@ -132,7 +132,7 @@
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
 									<div class="figure our_mission--item_media"><img src="../assets/images/about/f01.jpg" alt=""></div>
-									<h3 class="our_mission--item_title">责任</h3>
+									<h3 class="our_mission--item_title">Guarantee</h3>
 									<div class="our_mission--item_body">
 										<p>
 											全球领先的HTML5解决方案供应商，安全高效解决企业移动化
@@ -157,7 +157,7 @@
 		<div class="section">
 			<div class="container" style="max-width: 1160px">
 				<div class="section--header">
-					<h2 class="section--title">我们的团队</h2>
+					<h2 class="section--title">Our team</h2>
 					<p class="section--description">
 						成员既有超级学霸（来自Harvard、Google、香港科技大学、中国科技大学），
 						<br>也有来自行业的技术大拿。

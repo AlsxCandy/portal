@@ -18,18 +18,18 @@ import java.util.List;
  *  前端控制器
  * </p>
  *
- * @author 京茶吉鹿
- * @since 2023-03-07
+ * @author 五铢钱
+ * @since 2024-03-18
  */
 @RestController
-@Api(tags = "电梯种类详情")
+@Api(tags = "耳机种类详情")
 public class TypeDetailsController {
 
     @Autowired
     private TypeDetailsService typeDetailsService;
 
 
-    @ApiOperation(value = "通过电梯种类id查询所有信息")
+    @ApiOperation(value = "通过耳机种类id查询所有信息")
     @GetMapping("/findTypeDetailsByTypeId/{typeId}")
     public Result findTypeDetailsByTypeId(@PathVariable Integer typeId){
         List<TypeDetails> typeDetails = typeDetailsService.selectTypeDetailsByTypeId(typeId);

@@ -5,7 +5,7 @@
 		<div class="layout-container" style="width: 100%">
 			<div class="solution-page">
 				<div class="container" style="text-align: center">
-					<h2>自主创新跨平台企业级解决方案</h2>
+					<h2>Diversified channel selection</h2>
 					<p>光明网曾考虑过通过原生App来实现移动化，但是由于无法复用原始业务流程和数据就放弃了，直到选用了云适配整体解决方案后，可以很方便的在Enterplorer上使用一个帐号登录我们的系统，通过VPN随时进入内网。</p>
 				</div>
 			</div>
@@ -14,8 +14,8 @@
 			<div class="breadcrumb-box">
 				<div class="am-container">
 					<ol class="am-breadcrumb">
-						<li><router-link to="/">首页</router-link></li>
-						<li class="am-active">产品中心</li>
+						<li><router-link to="/">Home</router-link></li>
+						<li class="am-active">Products</li>
 					</ol>
 				</div>
 			</div>
@@ -24,9 +24,9 @@
 		<div class="section">
 			<div class="container" style="max-width: 1160px">
 				<div class="section--header">
-					<h2 class="section--title">解决方案案例展示</h2>
+					<h2 class="section--title">Product category display</h2>
 					<p class="section--description">
-						全球独创专利技术：一行代码部署，帮助企业快速安全地将现有PC版网页适配成HTML5跨屏网页，跨平台的企业统一办公 门户，快捷的移动适配开发能力，完备的数据安全保护
+						We have a wide range of products covering a wide range of businesses
 					</p>
 				</div>
 				
