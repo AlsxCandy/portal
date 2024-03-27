@@ -1,19 +1,9 @@
 .solution-page {
+    /* background: url(../images/product/bg.jpg); */
     background: url(../images/product/bg.jpg);
     color: #fff;
     padding: 110px 0 160px;
-}
-
-.solution-page .container {
-    padding: 0 100px
-}
-
-.solution-page .container h2 {
-    font-size: 46px
-}
-
-.solution-page .container p {
-    font-size: 16px
+    height: 300px;
 }
 
 @media screen and (max-width: 640px) {

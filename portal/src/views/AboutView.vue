@@ -29,13 +29,12 @@
 					<div class="am-g">
 						<div class="am-u-md-6">
 							<div class="our-company-text">
-								<h3>关于云适配你需要知道哪些？</h3>
+								<h3>Here's what you want</h3>
 								<p>
-									云适配(AllMobilize Inc.) 是全球领先的HTML5企业移动化解决方案供应商，由前微软美国总部IE浏览器核心研发团队成员及移动互联网行业专家在美国西雅图创立，并获得了微软创投的扶持以及晨兴资本、IDG资本、天创资本等国际顶级风投机构的投资。
+									Shenzhen WUZHUQ Electronics Co., Ltd is focused on high-end TWS bluetooth earbuds design, development, production and sales. It is a very professional factory on TWS earbuds. Company owned of ID engineer, structer engineer, electronics engineer and other professional engineers, have more than 200 professional production workers. Our products are very popular and loved by worldwide customers, provide high quality and inexpensive products is our final goals. Customer first is our company service tent, serve for each customer carefully and produce each products carefully.  We can supply customized service, welcome your OEM&ODM orders. Hope to cooperate and grow up with you together.
+
 								</p>
-								<p>
-									从2012年至今，云适配的开放技术平台已经吸引了超过40万开发者加入；云适配跨屏云也成功应用于超过30万家企业网站，包括微软、联想等世界500强企业，光明网、中国青年报等知名媒体，清华、北大、中科大等知名大学，以及中国政府网、中国共产党网等政府机构。2014年6月，比尔·盖茨先生访华时特地观看了云适配的技术演示，并给予高度的赞赏。
-								</p>
+								
 							</div>
 						</div>
 						
@@ -44,15 +43,23 @@
 								<div class="am-g">
 									<div class="am-u-md-6">
 										<div class="our-company-img">
-											<img src="../assets/images/about/ben.jpg" alt="" />
+											<img src="../assets/images/about/ben.png" alt="" />
 										</div>
 									</div>
 									
 									<div class="am-u-md-6">
 										<p class="our-company-brief">
-											国家“千人计划”特聘专家、中国企业级HTML5产业联盟主席、HTML5国际标准制定者之一、微软总部IE浏览器核心研发,成功发布了IE8、IE9、IE10,参与了下一代互联网标准HTML5国际标准制定以及IE中HTML5引擎的设计。
+											<br>AT68
+											<br>Dual Mic ENC + ANC
+											<br>USD12.14
+											<br>RMB85
+											<br>Chip: JL 7003D8
+											<br>earbuds battery: 40 mAh
+											<br>Charging case battery: 500 mAh
+											<br>Speaker: Φ13
+											<br>Play time: 7-8Hours
 										</p>
-										<div class="our-company-quote_author"><strong>General Manager Zhong</strong><span>Founder of Shenzhen WuZhuQ Electronic Co.,LTD</span></div>
+										<!-- <div class="our-company-quote_author"><strong>General Manager Zhong</strong><span>Founder of Shenzhen WuZhuQ Electronic Co.,LTD</span></div> -->
 									</div>
 								</div>
 							</div>

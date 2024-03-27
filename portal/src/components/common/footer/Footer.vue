@@ -34,7 +34,7 @@
 						<ul class="footer_contact_info">
 							<li class="footer_contact_info--item"><i class="am-icon-phone"></i><span>Service line：+8613360527236</span></li>
 							<li class="footer_contact_info--item"><i class="am-icon-wechat"></i><span>WeChat：+8613360527236</span></li>
-							<li class="footer_contact_info--item"><i class="am-icon-envelope-o"></i><span>E-mail: zjuly7580@gmail.com </span></li>
+							<li class="footer_contact_info--item"><i class="am-icon-envelope-o"></i><span>E-mail: July@wuzuq.com </span></li>
 							<li class="footer_contact_info--item"><i class="am-icon-map-marker"></i><span>Add: 301-B012, Building 2, No.1 Ma Wu Road, Baoan Community, Yuanshan Street, Longgang District, Shenzhen</span></li>
 						</ul>
 					</div>
@@ -45,15 +45,7 @@
 </template>
 
 <script>
-import { SiWechat } from "oh-vue-icons/icons"
-</script>
-<script>
-export default {
-	name: "Footer"
-}
-</script>
-
-<script>
+// import { SiWechat } from "oh-vue-icons/icons"
 import AMapLoader from "@amap/amap-jsapi-loader";
 const markerContent = document.querySelector(".custom-content-marker")
 
@@ -65,7 +57,7 @@ const marker = new AMap.Marker({
 });
 
 export default {
-  name: "map-view",
+	name: "Footer",
   mounted() {
     this.initAMap();
   },
@@ -78,8 +70,7 @@ export default {
         key: "52bfd2a11652179dbe45fb87eaf41c96", // 申请好的Web端开发者Key，首次调用 load 时必填
         version: "1.4.15", // 指定要加载的 JSAPI 的版本，缺省时默认为 1.4.15
         plugins: ["AMap.Scale"], //需要使用的的插件列表，如比例尺'AMap.Scale'，支持添加多个如：['...','...']
-      })
-        .then((AMap) => {
+      }).then((AMap) => {
           this.map = new AMap.Map("container", {
             // 设置地图容器id
             viewMode: "3D", // 是否为3D地图模式
@@ -88,12 +79,6 @@ export default {
           });
           this.map.add(marker)
         })
-        // .then((AMap)=>{
-			
-		    // })
-        // .catch((e) => {
-        //   console.log(e);
-        // })
     }
   }
 }
