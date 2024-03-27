@@ -1,14 +1,13 @@
 <template>
 	<Layout>
-		<!--<div class="product-background"></div>-->
-		
 		<div class="layout-container" style="width: 100%">
-			<div class="solution-page">
-				<div class="container" style="text-align: center">
-					<h2>Diversified channel selection</h2>
-					<p>光明网曾考虑过通过原生App来实现移动化，但是由于无法复用原始业务流程和数据就放弃了，直到选用了云适配整体解决方案后，可以很方便的在Enterplorer上使用一个帐号登录我们的系统，通过VPN随时进入内网。</p>
+				<!-- <div class="carousel">
+					<div class="slide" v-for="(image, index) in images" :key="index" :style="{ backgroundImage: 'url(' + image + ')' }">
+					</div>
+				</div> -->
+				<div class="solution-page">
+
 				</div>
-			</div>
 		</div>
 		<div class="layout-container" style="width: 100%">
 			<div class="breadcrumb-box">
@@ -69,7 +68,7 @@ export default {
 			tabList:[],
 			list:[],
 			tabIndex: 0,
-			goodsList:[],
+			goodsList:[]
 		}
 	},
 	mounted() {
@@ -97,14 +96,13 @@ export default {
 					//console.log(resp.data.data)
 				}
 			})
-		},
-		handleDetails(productId){
-			this.$router.push({path:`/product/productId/${productId}`})
 		}
 	}
 }
 </script>
 
 <style scoped>
+
+
 
 </style>

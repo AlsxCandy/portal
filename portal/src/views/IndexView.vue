@@ -61,9 +61,10 @@
 					<div class="am-g">
 						<div class="am-u-md-3" v-for="(advantage, index) in advantageList" :key="index">
 							<div class="features_item">
-								<img :src="advantage.cover" alt="" style="width: 262px;height: 198px;">
+								<a href="#">
+									<img :src="advantage.cover" alt="" style="width: 262px;height: 198px;">
+								</a>
 								<h3 class="features_item--title">{{ advantage.title }}</h3>
-								<p class="features_item--text">{{ advantage.desc }}</p>
 							</div>
 						</div>
 					</div>
@@ -133,10 +134,10 @@ export default {
 			},
 
 			advantageList: [
-				{ id: 1, cover: require('../assets/images/index/3.jpg'), title: '简单的适配过程', desc: '用户可快速学习适配开发，通过丰富的组件库完成页面功能的移动化适配。' },
-				{ id: 2, cover: require('../assets/images/index/4.jpg'), title: '简单的适配过程', desc: '用户可快速学习适配开发，通过丰富的组件库完成页面功能的移动化适配。' },
-				{ id: 3, cover: require('../assets/images/index/5.jpg'), title: '简单的适配过程', desc: '用户可快速学习适配开发，通过丰富的组件库完成页面功能的移动化适配。' },
-				{ id: 4, cover: require('../assets/images/index/6.jpg'), title: '简单的适配过程', desc: '用户可快速学习适配开发，通过丰富的组件库完成页面功能的移动化适配。' },
+				{ id: 1, cover: require('../assets/images/index/3.jpg'), title: 'HIF SOUND' },
+				{ id: 2, cover: require('../assets/images/index/4.jpg'), title: 'Mobile Music Room'},
+				{ id: 3, cover: require('../assets/images/index/5.jpg'), title: 'Magic light Bluetooth audio' },
+				{ id: 4, cover: require('../assets/images/index/6.jpg'), title: 'Field doubling' },
 			],
 			serviceList: [
 				{ id: 1, icon: 'am-icon-diamond', title: '多页面工作', desc: '标签栏可切换，不必为了新内容而被迫跳转界面，多项工作内容并行处理' },
