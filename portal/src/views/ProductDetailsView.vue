@@ -2,40 +2,45 @@
 	<Layout>
 		<div class="gallery-box" v-if="title !== '' && photos.length > 0">
 			
-			<div class="layout-container" style="width: 100%">
-				<div class="solution-page">
-					<div class="container">
-						<h2>{{title}}</h2>
-						<p>{{introduction}}</p>
+					<div class="layout-container" style="width: 100%">
+					<div class="produt-details">
+						<div class="container">
+							<h2>{{title}}</h2>
+							<p>{{introduction}}</p>
+						</div>
 					</div>
-				</div>
-			</div>
+					</div>
+
 			
-			<div class="gallery">
-				<div class="active-photo" :style="'background-image: url('+ photos[activePhoto]+');'">
-					<button type="button"
-						aria-label="Previous Photo"
-						class="previous"
-						@click="previousPhoto()">
-						◀
-					</button>
-					<button type="button"
-						aria-label="Next Photo"
-						class="next"
-						@click="nextPhoto()">
-						▶
-					</button>
-				</div>
-				<div class="thumbnails">
-					<div v-for="(photo, index) in photos"
-						:key="index"
-						:src="photo"
-						@click="activePhoto = index"
-						:class="{'active': activePhoto === index}"
-						:style="'background-image: url('+photo+')'">
+				
+					<div class="gallery">
+						<div class="active-photo" :style="'background-image: url('+ photos[activePhoto]+');'">
+							<button type="button"
+								aria-label="Previous Photo"
+								class="previous"
+								@click="previousPhoto()">
+								◀
+							</button>
+							<button type="button"
+								aria-label="Next Photo"
+								class="next"
+								@click="nextPhoto()">
+								▶
+							</button>
+						</div>
+						<div class="thumbnails">
+							<div v-for="(photo, index) in photos"
+								:key="index"
+								:src="photo"
+								@click="activePhoto = index"
+								:class="{'active': activePhoto === index}"
+								:style="'background-image: url('+photo+')'">
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
+				
+				
+
 		</div>
 		
 	</Layout>

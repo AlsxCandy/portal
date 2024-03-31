@@ -3,14 +3,15 @@
 		<div class="layout-container" style="width: 100%">
 			<div class="page-header">
 				<div class="am-container">
-					<h1 class="page-header-title">Customer case</h1>
+					<!-- <h1 class="page-header-title">Customer case</h1> -->
+					
 				</div>
 			</div>
 			<div class="breadcrumb-box">
 				<div class="am-container">
 					<ol class="am-breadcrumb">
 						<li><router-link to="/">Home</router-link></li>
-						<li class="am-active">Customers</li>
+						<li class="am-active">Types</li>
 					</ol>
 				</div>
 			</div>
@@ -19,10 +20,9 @@
 		<div class="section example">
 			<div class="container" style="max-width: 1160px; margin: 0 auto">
 				<div class="section--header">
-					<h2 class="section--title">全球首创 自主创新</h2>
+					<h2 class="section--title">Lots of variety, lots of surprises</h2>
 					<p class="section--description">
-						Enterplorer Studio是一套面向企业级移动信息化建设的开发平台。集聚开发、测试、
-						<br>打包、发布于一体的移动化开发综合平台。
+						Our products are performance monsters and cost-effective, bought all good, buy is to earn
 					</p>
 				</div>
 				
@@ -59,12 +59,12 @@ export default {
 		return{
 			tabIndex: 0,
 			tabList:[
-				{id:1,name:'Main case',icon:'am-icon-map-o'},
-				{id:1,name:'Customer Case 1',icon:'am-icon-scribd'},
-				{id:1,name:'Customer Case 2',icon:'am-icon-odnoklassniki'},
-				{id:1,name:'Customer Case 3',icon:'am-icon-building-o'},
-				{id:1,name:'Customer Case 4',icon:'am-icon-hand-scissors-o'},
-				{id:1,name:'Customer Case 5',icon:'am-icon-camera'},
+				{id:1,name:'T68',icon:'am-icon-map-o'},
+				{id:1,name:'AR06',icon:'am-icon-scribd'},
+				{id:1,name:'L4',icon:'am-icon-odnoklassniki'},
+				{id:1,name:'288',icon:'am-icon-building-o'},
+				{id:1,name:'150',icon:'am-icon-hand-scissors-o'},
+				{id:1,name:'146',icon:'am-icon-camera'},
 			],
 			list:[],
 		}

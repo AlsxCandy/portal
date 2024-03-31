@@ -32,8 +32,8 @@
 				<ul class="am-nav am-nav-pills am-nav-justify">
 					<li><router-link class="router" to="/index">Home</router-link></li>
 					<li><router-link class="router" to="/product">Products</router-link></li>
-					<li><router-link class="router" to="/example">Customers</router-link></li>
-					<li><router-link class="router" to="/news">News</router-link></li>
+					<li><router-link class="router" to="/example">Types</router-link></li>
+					<li><router-link class="router" to="/news">Product dynamics</router-link></li>
 					<li><router-link class="router" to="/about">About</router-link></li>
 				</ul>
 			</div>

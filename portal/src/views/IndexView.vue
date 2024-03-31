@@ -13,11 +13,11 @@
 									<div class="container">
 										<div class="am-g">
 											<div class="am-u-md-10 am-u-sm-centered" style="text-align: center">
-												<h1 class="slide_simple--title">企业移动化，首选云适配</h1>
+												<!-- <h1 class="slide_simple--title">企业移动化，首选云适配</h1>
 												<p class="slide_simple--text am-text-left"
 													style="display: flex;justify-content: center">
 													全球领先的HTML5企业移动化解决方案供应商，安全高效的帮助您的企业移动化。云适配企业浏览器Enterploer,让企业安全迈进移动办公时代！
-												</p>
+												</p> -->
 											</div>
 										</div>
 									</div>
@@ -53,7 +53,8 @@
 				<div class="section--header">
 					<h2 class="section--title">Core advantage</h2>
 					<p class="section--description">
-						全球领先HTML5企业移动化解决方案供应商，由前微软美国总部IE浏览器核心研发团队成员及移动互联网行业专家在美国西雅图创立,获得了微软创投的扶持以及晨兴资本、IDG资本、天创资本等国际顶级风投机构的投资。
+						Our electronic products boast exceptional quality, attractive pricing, a rich variety of options, and worry-free after-sales service, ensuring a delightful shopping experience.
+						<br>Sure you don't want to?
 					</p>
 				</div>
 
@@ -75,10 +76,10 @@
 		<div class="section" style="border-bottom: 1px solid #e9e9e9; padding-top: 0">
 			<div class="container" style="max-width: 1160px;">
 				<div class="section--header">
-					<h2 class="section--title">Our Service</h2>
+					<h2 class="section--title">TWS Pro Series</h2>
 					<p class="section--description">
-						全球领先HTML5企业移动化解决方案供应商，由前微软美国总部IE浏览器核心研发团队成员及移动互联网行业专家在美国西雅图创立
-						<br>获得了微软创投的扶持以及晨兴资本、IDG资本、天创资本等国际顶级风投机构的投资。
+						Experience the TWS Pro Series, where elite sound clarity meets sleek design. With powerful bass and intuitive controls, these earbuds redefine wireless audio excellence.
+						
 					</p>
 				</div>
 
@@ -86,15 +87,20 @@
 					<div class="am-g">
 						<div class="am-u-md-3" v-for="(service, index) in serviceList" :key="index">
 							<div class="service_item">
-								<i class="service_item--icon" :class="service.icon"></i>
-								<h3 class="service_item--title">{{ service.title }}</h3>
-								<div class="service_item--text">
+								<!-- <i class="service_item--icon" :class="service.icon"></i> -->
+								
+								<!-- <div class="service_item--text">
 									<p>{{ service.desc }}</p>
-								</div>
+								</div> -->
+								<img :src="service.image" style="width: 200px;height: 200px;">
+								<h3 class="service_item--title">{{ service.title }}</h3>
+
+
 							</div>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</Layout>
@@ -113,10 +119,10 @@ export default {
 	data() {
 		return {
 			tabList: [
-				{ name: 'TWS Wireless earbuds', desc: '一句话概括特点', icon: 'am-icon-cog' },
-				{ name: 'Smart watch', desc: '一句话概括特点', icon: 'am-icon-lightbulb-o' },
-				{ name: 'Bluetooth speaker', desc: '一句话概括特点', icon: 'am-icon-line-chart' },
-				{ name: 'About Us', desc: '一句话概括特点', icon: 'am-icon-hourglass-end' },
+				{ name: 'TWS Wireless earbuds', desc: 'Unparalleled freedom', icon: 'am-icon-cog' },
+				{ name: 'Smart watch', desc: 'Intelligent Companion', icon: 'am-icon-lightbulb-o' },
+				{ name: 'Bluetooth speaker', desc: 'Powerful Compact', icon: 'am-icon-line-chart' },
+				{ name: 'About Us', desc: 'Innovative Quality', icon: 'am-icon-hourglass-end' },
 			],
 			tabIndex: 0,
 			currentIndex: 0,
@@ -135,15 +141,15 @@ export default {
 
 			advantageList: [
 				{ id: 1, cover: require('../assets/images/index/3.jpg'), title: 'HIF SOUND' },
-				{ id: 2, cover: require('../assets/images/index/4.jpg'), title: 'Mobile Music Room'},
-				{ id: 3, cover: require('../assets/images/index/5.jpg'), title: 'Magic light Bluetooth audio' },
-				{ id: 4, cover: require('../assets/images/index/6.jpg'), title: 'Field doubling' },
+				{ id: 2, cover: require('../assets/images/product/Air31.png'), title: 'High Fidelity, Comfortable, Durable'},
+				{ id: 3, cover: require('../assets/images/product/f06.png'), title: 'Stylish, Functional, Innovative' },
+				{ id: 4, cover: require('../assets/images/product/SKYGS-5.png'), title: 'Premium, Seamless, Advanced' },
 			],
 			serviceList: [
-				{ id: 1, icon: 'am-icon-diamond', title: '多页面工作', desc: '标签栏可切换，不必为了新内容而被迫跳转界面，多项工作内容并行处理' },
-				{ id: 2, icon: 'am-icon-user', title: '多页面工作', desc: '标签栏可切换，不必为了新内容而被迫跳转界面，多项工作内容并行处理' },
-				{ id: 3, icon: 'am-icon-umbrella', title: '多页面工作', desc: '标签栏可切换，不必为了新内容而被迫跳转界面，多项工作内容并行处理' },
-				{ id: 4, icon: 'am-icon-briefcase', title: '多页面工作', desc: '标签栏可切换，不必为了新内容而被迫跳转界面，多项工作内容并行处理' }
+				{ id: 1, icon: 'am-icon-diamond', title: 'Mate50-Plus', desc: '' ,image: require('../assets/images/product/Mate50-Plus.png')},
+				{ id: 2, icon: 'am-icon-user', title: 'Mate60-SE', desc: '' ,image: require('../assets/images/product/Mate60-SE.png')},
+				{ id: 3, icon: 'am-icon-umbrella', title: 'Y30', desc: '' ,image: require('../assets/images/product/Y30.png')},
+				{ id: 4, icon: 'am-icon-briefcase', title: 'Pro60', desc: '' ,image: require('../assets/images/product/Pro60.png')}
 			]
 		}
 	},

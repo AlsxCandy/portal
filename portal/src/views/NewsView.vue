@@ -2,16 +2,20 @@
 	<Layout>
 		<div class="layout-container" style="width: 100%">
 			<div class="page-header">
-				<div class="am-container">
+				<!-- <div class="am-container">
+					<div style=" width: 100%;height: 498px;">
+						<img src="../assets/images/product/音响02.jpg" style="width: 100%; height: 498px">
+
+					</div>
 					<h1 class="page-header-title">Company dynamics</h1>
-				</div>
+				</div> -->
 			</div>
 			
 			<div class="breadcrumb-box">
 				<div class="am-container">
 					<ol class="am-breadcrumb">
 						<li><router-link to="/">Home</router-link></li>
-						<li class="am-active">News</li>
+						<li class="am-active">Product dynamics</li>
 					</ol>
 				</div>
 			</div>
@@ -20,10 +24,9 @@
 		<div class="section">
 			<div class="container" style="max-width: 1160px">
 				<div class="section--header">
-					<h2 class="section--title">最近新闻</h2>
+					<h2 class="section--title">Latest product</h2>
 					<p class="section--description">
-						云适配与中建材信息技术股份有限公司（以下简称“中建信息”）联合举办的“战略
-						<br>合作签约仪式暨全国跨屏行动启动大会”在北京成功举办。
+						Here's our new product. Check it out
 					</p>
 				</div>
 				

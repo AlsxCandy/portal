@@ -7,11 +7,12 @@
 				<div class="am-container">
 					<ol class="am-breadcrumb">
 						<li><router-link to="/news">公司动态</router-link></li>
-						<li class="am-active">文章详情</li>
+						<li class="am-active">Product details</li>
 					</ol>
 				</div>
 			</div>
 		</div>
+		
 		
 		<div class="section">
 			<div class="container" style="max-width: 1160px">

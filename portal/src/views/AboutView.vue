@@ -3,7 +3,7 @@
 		<div class="layout-container" style="width: 100%">
 			<div class="page-header">
 				<div class="am-container">
-					<h1 class="page-header-title">About Us</h1>
+					<!-- <h1 class="page-header-title">About Us</h1> -->
 				</div>
 			</div>
 			
@@ -75,10 +75,9 @@
 		<div class="section">
 			<div class="container" style="max-width: 1160px">
 				<div class="section--header">
-					<h2 class="section--title">Our purpose</h2>
+					<h2 class="section--title">Our T68</h2>
 					<p class="section--description">
-						让人们无论使用任何设备都能安全高效获取信息
-						<br>One Web，Any Device
+						<br>Many kinds, beautiful appearance
 					</p>
 				</div>
 				
@@ -87,68 +86,69 @@
 						<div class="am-g">
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
-									<div class="figure our_mission--item_media"><img src="../assets/images/about/f02.jpg" alt=""></div>
+									<div class="figure our_mission--item_media"><img src="../assets/images/about/黑.jpg" alt=""></div>
 									<h3 class="our_mission--item_title">Quality</h3>
 									<div class="our_mission--item_body">
 										<p>
-											全球领先的HTML5解决方案供应商，安全高效解决企业移动化
+											Crafted with precision and quality, these headphones offer an unparalleled audio experience. Enjoy rich, crisp sounds that immerse you in your music, podcasts, or calls. Comfortable and durable, they're the perfect companion for any audiophiles.
 										</p>
-										<ul>
+										<!-- <ul>
 											<li>快捷的移动适配开发</li>
 											<li>统一的办公通讯门户</li>
 											<li>完善的安全管理平台</li>
-										</ul>
+										</ul> -->
 									</div>
 								</div>
 							</div>
 							
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
-									<div class="figure our_mission--item_media"><img src="../assets/images/about/f03.jpg" alt=""></div>
-									<h3 class="our_mission--item_title">Duty</h3>
+									<div class="figure our_mission--item_media"><img src="../assets/images/about/金.jpg" alt=""></div>
+									<h3 class="our_mission--item_title">Beauty</h3>
 									<div class="our_mission--item_body">
 										<p>
-											国产最流行的开源HTML5前端框架，组件丰富，为HTML5开发加速
+											
+These headphones are not just about sound; they're a statement of style. With sleek lines and an elegant finish, they blend aesthetics with acoustic perfection. Wear them, and let their beauty complement your every move.
 										</p>
-										<ul>
+										<!-- <ul>
 											<li>持续改进 </li>
 											<li>追求卓越品质</li>
 											<li>为顾客创造价值</li>
-										</ul>
+										</ul> -->
 									</div>
 								</div>
 							</div>
 							
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
-									<div class="figure our_mission--item_media"><img src="../assets/images/about/f04.jpg" alt=""></div>
-									<h3 class="our_mission--item_title">Integrity</h3>
+									<div class="figure our_mission--item_media"><img src="../assets/images/about/银.jpg" alt=""></div>
+									<h3 class="our_mission--item_title">Intelligence</h3>
 									<div class="our_mission--item_body">
 										<p>
-											全球领先的HTML5解决方案供应商，安全高效解决企业移动化
+											Embrace the future of audio with these intelligent headphones, designed to adapt to your listening habits. Smart noise-cancellation and intuitive controls make every interaction seamless, creating a truly personalized listening experience.
 										</p>
-										<ul>
+										<!-- <ul>
 											<li>平等包容</li>
 											<li>互利共赢</li>
 											<li>与事业伙伴同成长</li>
-										</ul>
+										</ul> -->
 									</div>
 								</div>
 							</div>
 							
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
-									<div class="figure our_mission--item_media"><img src="../assets/images/about/f01.jpg" alt=""></div>
+									<div class="figure our_mission--item_media"><img src="../assets/images/about/主.jpg" alt=""></div>
 									<h3 class="our_mission--item_title">Guarantee</h3>
 									<div class="our_mission--item_body">
 										<p>
-											全球领先的HTML5解决方案供应商，安全高效解决企业移动化
+											Backed by a solid guarantee, these headphones assure you of their premium quality and performance. Should any issue arise, rest easy knowing comprehensive support and service are available to ensure your satisfaction.
 										</p>
-										<ul>
+										<!-- <ul>
 											<li>快捷的移动适配开发</li>
 											<li>统一的办公通讯门户</li>
 											<li>完善的安全管理平台</li>
-										</ul>
+										</ul> -->
 									</div>
 								</div>
 							</div>
@@ -164,10 +164,10 @@
 		<div class="section">
 			<div class="container" style="max-width: 1160px">
 				<div class="section--header">
-					<h2 class="section--title">Our team</h2>
+					<h2 class="section--title">Our Products</h2>
 					<p class="section--description">
-						成员既有超级学霸（来自Harvard、Google、香港科技大学、中国科技大学），
-						<br>也有来自行业的技术大拿。
+						We not only have headphones, but also Bluetooth speakers, intelligent wearable devices
+						<br>Easy to use and affordable
 					</p>
 				</div>
 				

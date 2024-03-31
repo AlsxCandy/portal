@@ -122,11 +122,13 @@ export default {
 				}
 			})
 		},
+		handleDetails(productId){
+			this.$router.push({path:`/product/productId/${productId}`})
+		},
 		getSlideshow() {
 			this.getRequest("/findAllSlideshow").then(resp => {
 				if (resp) {
 					this.slideshow = resp.data.data
-					// console.log(this.slideshow)
 				}
 			})
 		},
@@ -175,7 +177,7 @@ export default {
 
 .carousel-item img {
 	width: 100%;
-	height: 300px;
+	height: 400px;
 	display: block;
 	margin: 0 auto;
 }
