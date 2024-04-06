@@ -3,16 +3,13 @@
 		<div class="gallery-box" v-if="title !== '' && photos.length > 0">
 			
 					<div class="layout-container" style="width: 100%">
-					<div class="produt-details">
-						<div class="container">
-							<h2>{{title}}</h2>
-							<p>{{introduction}}</p>
+						<div class="produt-details">
+							<div class="container">
+								<h2>{{title}}</h2>
+								<p><br>{{introduction}}</p>
+							</div>
 						</div>
 					</div>
-					</div>
-
-			
-				
 					<div class="gallery">
 						<div class="active-photo" :style="'background-image: url('+ photos[activePhoto]+');'">
 							<button type="button"
@@ -42,6 +39,11 @@
 				
 
 		</div>
+
+
+			
+
+
 		
 	</Layout>
 </template>

@@ -6,12 +6,15 @@
 			<div class="breadcrumb-box">
 				<div class="am-container">
 					<ol class="am-breadcrumb">
-						<li><router-link to="/news">公司动态</router-link></li>
+						<li><router-link to="/news">Product dynamics</router-link></li>
 						<li class="am-active">Product details</li>
 					</ol>
 				</div>
 			</div>
+			
 		</div>
+
+		
 		
 		
 		<div class="section">
@@ -34,7 +37,7 @@
 										<h3 class="careers_article--title">{{ article.title }}</h3>
 										<div class="careers_article--text">{{article.introduction}}</div>
 										<div class="careers_article--footer">
-											<router-link :to="{name:'newsDetails',params:{newsId:article.articleId}}" class="link">查看更多</router-link>
+											<router-link :to="{name:'newsDetails',params:{newsId:article.articleId}}" class="link">About more</router-link>
 										</div>
 									</div>
 								</div>
@@ -48,7 +51,7 @@
 									<div class="am-panel am-panel-default">
 										<div class="am-panel-hd">
 											<h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#do-not-say-1'}">
-												作者：{{article.author}} &nbsp;&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;&nbsp; 发布时间：{{article.createTime}}
+												Author：{{article.author}} &nbsp;&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;&nbsp; CreateTime：{{article.createTime}}
 											</h4>
 										</div>
 										<div class="am-panel-collapse am-collapse am-in">
@@ -66,7 +69,16 @@
 				</div>
 			</div>
 		</div>
-		
+		<!-- 
+				 <p>	$: 3.14									</p>
+				 <p>	RMB: 22				</p>
+				 <p>	Chip:  Jieli AD7023D2							</p>
+				 <p>	earbuds battery: 30mAh					</p>
+				 <p>  Charging case battery: 180 mAh			</p>
+				 <p>  speaker:8mm								</p>
+				 <p>  play time: 2~3hours							</p>
+
+		 -->
 	</Layout>
 </template>
 

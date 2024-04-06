@@ -48,7 +48,7 @@
 										<p>{{article.introduction}}</p>
 									</div>
 									<div class="article--footer">
-										<router-link :to="{name:'newsDetails',params:{newsId:article.articleId}}" class="link">查看更多</router-link>
+										<router-link :to="{name:'newsDetails',params:{newsId:article.articleId}}" class="link">About more</router-link>
 									</div>
 								</div>
 							</div>

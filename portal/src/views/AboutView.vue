@@ -177,7 +177,7 @@ These headphones are not just about sound; they're a statement of style. With sl
 							<div class="am-u-md-3 am-u-end" v-for="(designer,index) in designers" :key="index">
 								<div class="team-box">
 									<div class="our-team-img" style="height: 304px;overflow: hidden">
-										<img :src="designer.avatar" style="height: auto" alt=""/>
+										<img :src="designer.avatar" style="height: 247.99px" alt=""/>
 									</div>
 									<div class="team_member--body">
 										<h3 class="team_member--name">{{designer.name}}</h3>
