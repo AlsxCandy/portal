@@ -40,6 +40,14 @@
 					</div>
 				</div>
 			</div>
+      <div class="footer--continer" style="text-align: center;">
+        <span class="text--muted"> 
+          <a href="https://beian.miit.gov.cn/#/Integrated/index" style="color: rgb(46,179,255);font-weight: 100;">粤ICP备2024229170</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="https://beian.mps.gov.cn/#/query/webSearch" style="color: rgb(46,179,255);font-weight: 100;">粤ICP备2024229170</a>
+        </span>
+
+
+      </div>
 		</div>
 	</div>
 </template>

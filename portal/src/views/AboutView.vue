@@ -75,7 +75,7 @@
 		<div class="section">
 			<div class="container" style="max-width: 1160px">
 				<div class="section--header">
-					<h2 class="section--title">Our T68</h2>
+					<h2 class="section--title">Newest product</h2>
 					<p class="section--description">
 						<br>Many kinds, beautiful appearance
 					</p>
@@ -86,11 +86,11 @@
 						<div class="am-g">
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
-									<div class="figure our_mission--item_media"><img src="../assets/images/about/黑.jpg" alt=""></div>
-									<h3 class="our_mission--item_title">Quality</h3>
+									<div class="figure our_mission--item_media"><img src="../assets/images/index/T68.jpg" alt=""></div>
+									<h3 class="our_mission--item_title">T68</h3>
 									<div class="our_mission--item_body">
 										<p>
-											Crafted with precision and quality, these headphones offer an unparalleled audio experience. Enjoy rich, crisp sounds that immerse you in your music, podcasts, or calls. Comfortable and durable, they're the perfect companion for any audiophiles.
+											ANC+ENC LCD big screen earphone
 										</p>
 										<!-- <ul>
 											<li>快捷的移动适配开发</li>
@@ -103,12 +103,11 @@
 							
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
-									<div class="figure our_mission--item_media"><img src="../assets/images/about/金.jpg" alt=""></div>
-									<h3 class="our_mission--item_title">Beauty</h3>
+									<div class="figure our_mission--item_media"><img src="../assets/images/about/A90PRO.jpg" alt=""></div>
+									<h3 class="our_mission--item_title">A9 PRO</h3>
 									<div class="our_mission--item_body">
 										<p>
-											
-These headphones are not just about sound; they're a statement of style. With sleek lines and an elegant finish, they blend aesthetics with acoustic perfection. Wear them, and let their beauty complement your every move.
+											ANC LCD screen earbdus
 										</p>
 										<!-- <ul>
 											<li>持续改进 </li>
@@ -121,11 +120,11 @@ These headphones are not just about sound; they're a statement of style. With sl
 							
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
-									<div class="figure our_mission--item_media"><img src="../assets/images/about/银.jpg" alt=""></div>
-									<h3 class="our_mission--item_title">Intelligence</h3>
+									<div class="figure our_mission--item_media"><img src="../assets/images/index/AR06.jpg" alt=""></div>
+									<h3 class="our_mission--item_title">AR06</h3>
 									<div class="our_mission--item_body">
 										<p>
-											Embrace the future of audio with these intelligent headphones, designed to adapt to your listening habits. Smart noise-cancellation and intuitive controls make every interaction seamless, creating a truly personalized listening experience.
+											Double speaker ANC+ENC
 										</p>
 										<!-- <ul>
 											<li>平等包容</li>
@@ -138,11 +137,11 @@ These headphones are not just about sound; they're a statement of style. With sl
 							
 							<div class="am-u-md-3">
 								<div class="our_mission--item">
-									<div class="figure our_mission--item_media"><img src="../assets/images/about/主.jpg" alt=""></div>
-									<h3 class="our_mission--item_title">Guarantee</h3>
+									<div class="figure our_mission--item_media"><img src="../assets/images/about/M56.jpg" alt="" style="height: 260px;"></div>
+									<h3 class="our_mission--item_title">M56</h3>
 									<div class="our_mission--item_body">
 										<p>
-											Backed by a solid guarantee, these headphones assure you of their premium quality and performance. Should any issue arise, rest easy knowing comprehensive support and service are available to ensure your satisfaction.
+											New arrival four headset
 										</p>
 										<!-- <ul>
 											<li>快捷的移动适配开发</li>

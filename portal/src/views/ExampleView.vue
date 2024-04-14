@@ -40,7 +40,10 @@
 						
 						<div class="tabs">
 							<div class="tab" v-for="(image,index) in list" :key="index">
-								<img :src="image" alt="">
+								<a href="#">
+									<img :src="image" alt="">
+								</a>
+								
 							</div>
 						</div>
 					</div>

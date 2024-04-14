@@ -44,6 +44,9 @@
 			</div>
 		</div>
 
+
+	
+
 	
 
 
@@ -62,7 +65,7 @@
 					<div class="am-g">
 						<div class="am-u-md-3" v-for="(advantage, index) in advantageList" :key="index">
 							<div class="features_item">
-								<a href="#">
+								<a :href="advantage.url">
 									<img :src="advantage.cover" alt="" style="width: 262px;height: 198px;">
 								</a>
 								<h3 class="features_item--title">{{ advantage.title }}</h3>
@@ -140,10 +143,10 @@ export default {
 			},
 
 			advantageList: [
-				{ id: 1, cover: require('../assets/images/index/3.jpg'), title: 'HIF SOUND' },
-				{ id: 2, cover: require('../assets/images/product/Air31.png'), title: 'High Fidelity, Comfortable, Durable'},
-				{ id: 3, cover: require('../assets/images/product/f06.png'), title: 'Stylish, Functional, Innovative' },
-				{ id: 4, cover: require('../assets/images/product/SKYGS-5.png'), title: 'Premium, Seamless, Advanced' },
+				{ id: 1, cover: require('../assets/images/index/01.jpg'), title: 'Dual diaphragm speaker with plug-in card RGB lighting audio: ST-132' ,url:'https://www.alibaba.com/product-detail/BT-speaker-microphone-sound-speaker-best_1601074334181.html?'},
+				{ id: 2, cover: require('../assets/images/index/AR06.jpg'), title: 'ANC+ENC True wireless earbuds : AR06',url:'https://www.alibaba.com/product-detail/AR06True-Wireless-LCD-Gaming-in-ear_1601089670810.html?'},
+				{ id: 3, cover: require('../assets/images/index/T68.jpg'), title: 'ANC+ENC stereo bass earphone :  AT68' ,url:'https://www.alibaba.com/product-detail/ANC-ENC-T68-Headset-TWS-Earphone_1601069838736.html?'},
+				{ id: 4, cover: require('../assets/images/index/G15PRO.jpg'), title: '4G smart watch ： G15 PRO',url:'https://www.alibaba.com/product-detail/G15PRO-Fitness-Tracker-Connecte-2024-NFC_1601074999626.html?' },
 			],
 			serviceList: [
 				{ id: 1, icon: 'am-icon-diamond', title: 'Mate50-Plus', desc: '' ,image: require('../assets/images/product/Mate50-Plus.png')},

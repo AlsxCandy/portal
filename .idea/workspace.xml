@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b2d71e-28fa-4d38-aee9-635949aff157" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/portal/src/assets/images/index/f01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/src/views/ExampleView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/portal/src/views/ExampleView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
       <updated>1711460605376</updated>
       <workItem from="1711460608033" duration="311000" />
       <workItem from="1711546183711" duration="74000" />
+      <workItem from="1712828872005" duration="346000" />
     </task>
     <servers />
   </component>
